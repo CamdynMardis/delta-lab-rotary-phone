@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab|delta</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <form id="profileForm">
+      <label for="nameInput">name</label>
+      <input id="nameInput" required />
+      <br />
+
+      <label for="favoriteInput">favorite</label>
+      <select id="favoriteInput" required>
+        <option value="">select favorite!</option>
+      </select>
+      <br />
+
+      <label for="commentInput">comments</label>
+      <textarea id="commentInput"></textarea>
+      <br />
+
+      <button id="btnCreateProfile" type="submit">create my profile</button>
+    </form>
+
+    <div id="profileOutput"></div>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
